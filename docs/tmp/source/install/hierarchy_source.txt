@@ -1,0 +1,17 @@
+
+    /opt/ws/db
+           /ws
+           /doc
+           /fab
+           /softwares
+
+  + External folders depending on calcul resource :
+
+    /opt/ws_rsrc/{resourcename}/requests : run folders
+    /opt/ws_rsrc/{resourcename}/simg     : softwares Singularity image files
+
+  + Online documentation :
+
+    /var/www/html/softwares : softwares online documentation
+    /var/www/html/ws        : ws online documentation
+
