@@ -1,5 +1,22 @@
+Generate sphinx docs by CI/CD
 
-https://www.docslikecode.com/learn/05-cd-for-docs/
+Misc
+====
+
+ - https://www.docslikecode.com/learn/05-cd-for-docs/
+
+ - readthedocs
+
+ - https://leimao.github.io/blog/CPP-Documentation-Using-Sphinx/
 
 
+Following https://tech.michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1
+===============================================================================
+
+Continuous Documentation: Hosting Read the Docs on GitHub Pages
+
+This post will describe how to host a sphinx-powered site (using the Read the Docs theme) on your own GitHub Pages site, built with GitHub's free CI/CD tools.
+
+Note: If you don't care about how this works and you just want to make a functional repo, you can just fork
+https://github.com/maltfield/rtd-github-pages/tree/master
 
