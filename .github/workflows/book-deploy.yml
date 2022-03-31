@@ -9,8 +9,6 @@ on:
       - 'master'
 
 jobs:
- 
-jobs:
   deploy-book:
     runs-on: ubuntu-latest
     steps:
