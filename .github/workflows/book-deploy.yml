@@ -28,7 +28,7 @@ jobs:
     - name: Build the book
       run: |
         cd jupyter_notebook
-        python3 -m notebook build .
+        jupyter-book build .
         cd ..
 
     # Push the book's HTML to github-pages
