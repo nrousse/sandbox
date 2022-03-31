@@ -1,5 +1,5 @@
+jupyter-book
 pytoulbar2
 matplotlib
 pandas
-jupyter
 nbconvert
