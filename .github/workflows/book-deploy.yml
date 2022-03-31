@@ -22,13 +22,13 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install -r jupyter_notebook/requirement.txt
+        pip3 install -r jupyter_notebook/requirement.txt
 
     # Build the book
     - name: Build the book
       run: |
         cd jupyter_notebook
-        jupyter-book build .
+        jupyter-book build sudoku.ipynb
         cd ..
 
     # Push the book's HTML to github-pages
@@ -36,5 +36,5 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3.6.1
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./_build/html
+        publish_dir: ./jupyter_notebook/_build/html
 
